@@ -1,13 +1,13 @@
-## Displaying Information about Files Stored in a Folder
+# Displaying Information about Files Stored in a Folder
 
 In the `index.js` file of the `03-files-in-folder` directory, develop a script that outputs information about files contained in the `secret-folder` to the console.
 
-### Requirements
+## Requirements
 
-- [ ] When executing the command `node 03-files-in-folder` <u>in the root directory of the repository</u>, information about files contained directly within `03-files-in-folder/secret-folder` should be displayed in the console.  
+- [ ] When executing the command `node 03-files-in-folder` *in the root directory of the repository*, information about files contained directly within `03-files-in-folder/secret-folder` should be displayed in the console.  
        The data should be presented in the format `<file name>-<file extension>-<file size>`.  
        Example: `example - txt - 128.369kb`.
-      _Note: no rounding for file size is necessary; conversion to kB is optional!_
+      *Note: no rounding for file size is necessary; conversion to kB is optional!*
 
 - [ ] Information should only be displayed for files located in `03-files-in-folder/secret-folder`. The presence of information about directories is considered an error.
 
@@ -38,10 +38,10 @@ To determine the file extension, you can use the [extname method](https://nodejs
 Use [stat](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html#fsstatpath-options-callback) to obtain information about a file.  
 You can see the full list of data returned by this function in the documentation. Note that the object returned by this function is an instance of the [Stats class](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html#fs_class_fs_stats), which also has methods to check whether the object is a file.
 
-##### Useful Links
+#### Useful Links
 
-_If you're looking for the information in Russian, please note that translations of documentation into Russian may be outdated and may not contain all the modern features of the modules.
-For up-to-date information, always use the official documentation!_
+*If you're looking for the information in Russian, please note that translations of documentation into Russian may be outdated and may not contain all the modern features of the modules.
+For up-to-date information, always use the official documentation!*
 
 - [Node.js file stats](https://nodejs.org/en/learn/manipulating-files/nodejs-file-stats)
 - [Node.js fs.readdir() Method](https://www.geeksforgeeks.org/node-js-fs-readdir-method/)
