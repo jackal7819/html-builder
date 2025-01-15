@@ -1,17 +1,17 @@
-## Writing Console Input to File
+# Writing Console Input to File
 
 In the `index.js` file in the `02-write-file` directory, develop a script that outputs a greeting to the console, waits for text input, and writes the entered text to a file.
 
-### General Rules
+## General Rules
 
 - The use of any third-party modules is prohibited.
-- Each task must be executed <u>in the root directory</u> using the command `node <task folder name>`.
+- Each task must be executed *in the root directory* using the command `node <task folder name>`.
 - The use of synchronous functions from the **fs module**, such as `fs.statSync(path[, options])`, `fs.readFileSync(path[, options])`, and others found in the [synchronous API section](https://nodejs.org/api/fs.html#fs_synchronous_api), is prohibited.
 
 ### Requirements
 
 - [ ] Inside the `02-write-file` folder, there is 1 file `index.js`.
-- [ ] When executing the command `node 02-write-file` <u>in the root directory of the repository</u>, a text file is created in the `02-write-file` folder, and a prompt for text input is displayed in the console (the text of prompt is of your choice).
+- [ ] When executing the command `node 02-write-file` *in the root directory of the repository*, a text file is created in the `02-write-file` folder, and a prompt for text input is displayed in the console (the text of prompt is of your choice).
 - [ ] After entering text, the entered text should be written to the previously created file in the `02-write-file` directory. The process does not terminate and awaits new input.
 - [ ] After the next input, the initially created text file is appended with new text, and the process continues to wait for input.
 - [ ] When pressing the `ctrl + c` key combination or entering `exit` into the console, a farewell phrase is displayed (the text of farewell phrase is of your choice), and the process terminates.
@@ -41,9 +41,9 @@ To successfully complete this task, you will need to apply your knowledge of eve
 
 Reading anything from a stream using the **Readline module** can be helpful. The standard input stream `stdin`, being a **ReadableStream**, is well-suited for this.
 
-##### Useful Links
+#### Useful Links
 
-_Please note, if you are seeking information in Russian, be aware that translations of the documentation may be outdated. They might not include all the latest features of the modules. For the most current and accurate information, always refer to the official documentation!_
+*Please note, if you are seeking information in Russian, be aware that translations of the documentation may be outdated. They might not include all the latest features of the modules. For the most current and accurate information, always refer to the official documentation!*
 
 - Process:
   - [Process](https://nodejs.org/api/process.html)
