@@ -14,9 +14,9 @@ fs.promises
           .stat(filePath)
           .then((stats) => {
             const extname = path.extname(file.name).slice(1);
-            const size = (stats.size / 1024).toFixed(3);
+            const size = stats.size;
 
-            console.log(`${file.name} - ${extname} - ${size}kb`);
+            console.log(`${file.name} - ${extname} - ${size}b`);
           })
           .catch((error) => {
             console.error('Error reading file stats:', error);

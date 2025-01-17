@@ -2,7 +2,7 @@
 
 ---
 
-### Objectives:
+## Objectives
 
 The main goal of this series of tasks is to understand the basics of working with the **Node.js** platform.
 You are offered to complete a series of small tasks with a gradual increase in complexity. The final touch will be the creation of a small application for building a static website.
@@ -32,7 +32,7 @@ Once the cross-check begins, access the guidelines by following [this link](http
 ### General Rules
 
 - The use of any third-party modules is strictly prohibited.
-- Each task must be executed <u>in the root directory</u> using the command `node <task folder name>`.
+- Each task must be executed *in the root directory* using the command `node <task folder name>`.
 - Utilizing synchronous functions from the **fs module**, such as `fs.statSync(path[, options])`, `fs.readFileSync(path[, options])`, and others found in the [Synchronous API section](https://nodejs.org/api/fs.html#fs_synchronous_api), is not allowed.
 - The use of the `setTimeout()` function is forbidden.
 - Task execution and verification should be carried out on the **LTS** version of Node.
