@@ -1,11 +1,11 @@
-## Copying a Directory
+# Copying a Directory
 
 In the `index.js` file of the `04-copy-directory` folder, implement the `copyDir` function, which copies the contents of the files folder to the `files-copy` folder.
 
-### General Rules
+## General Rules
 
 - The use of any third-party modules is prohibited.
-- Each task must be executed <u>in the root directory</u> using the command `node <task folder name>`.
+- Each task must be executed *in the root directory* using the command `node <task folder name>`.
 - The use of synchronous functions from the **fs module**, such as `fs.statSync(path[, options])`, `fs.readFileSync(path[, options])`, and others found in the [synchronous API section](https://nodejs.org/api/fs.html#fs_synchronous_api), is prohibited.
 
 ### Requirements
@@ -31,7 +31,7 @@ Steps to complete the task:
 
 Pay attention to the `recursive` option that can be passed to `fsPromises/mkdir`. With its help, you can avoid errors in cases where the directory already exists.
 
-##### Useful Links
+#### Useful Links
 
 - [copyFile](https://nodejs.org/api/fs.html#fs_fspromises_copyfile_src_dest_mode)
 - [fs.copyFile() Function](https://www.geeksforgeeks.org/node-js-fs-copyfile-function/)
